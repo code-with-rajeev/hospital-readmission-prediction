@@ -75,4 +75,5 @@ This project aims to predict **whether a diabetic patient will be readmitted to 
 
 
 Confusion Matrix (XGBoost after SMOTE):
+
 <img width="524" height="455" alt="download" src="https://github.com/user-attachments/assets/dcd96fb5-5edd-4404-9156-25dae4354f88" />

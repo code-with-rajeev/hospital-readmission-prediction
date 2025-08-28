@@ -3,6 +3,13 @@
 This project aims to predict **whether a diabetic patient will be readmitted to the hospital within 30 days** based on their medical history, treatments, and demographic details.  
 Reducing hospital readmissions is a critical challenge for healthcare providers, as it improves **patient outcomes** and reduces **financial penalties** for hospitals.
 
+🎯 **Project Objective**  
+This project aims to predict **whether a diabetic patient will be readmitted to the hospital within 30 days** based on their **medical history, treatments, and demographic details**.  
+🚑 Reducing hospital readmissions is a **critical challenge** for healthcare providers because it leads to:  
+✅ Improved **patient outcomes**  
+💰 Reduced **financial penalties** for hospitals  
+📊 Better **resource utilization** and hospital efficiency  
+
 ---
 
 ## 📂 Dataset
@@ -26,6 +33,8 @@ Reducing hospital readmissions is a critical challenge for healthcare providers,
 
 2. **Mapped ID Columns**  
    - Replaced numeric codes in `admission_type_id`, `discharge_disposition_id`, `admission_source_id` with human-readable categories.
+
+<img width="974" height="528" alt="download" src="https://github.com/user-attachments/assets/d2032f1c-61e3-4321-bb32-3f143d357f36" />
 
 3. **Encoding**  
    - Applied **Label Encoding** to categorical variables.  
@@ -62,6 +71,8 @@ Reducing hospital readmissions is a critical challenge for healthcare providers,
   - `num_medications`  
   - `time_in_hospital`  
 
+<img width="547" height="547" alt="download" src="https://github.com/user-attachments/assets/3669a634-4f27-4af3-a977-c842c3b989ca" />
 
-Confusion Matrix (XGBoost after SMOTE):  
 
+Confusion Matrix (XGBoost after SMOTE):
+<img width="524" height="455" alt="download" src="https://github.com/user-attachments/assets/dcd96fb5-5edd-4404-9156-25dae4354f88" />
